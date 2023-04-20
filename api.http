@@ -3,3 +3,27 @@ GET http://localhost:8000
 
 ### Get All produk
 GET http://localhost:8000/produk
+
+
+### Get detail produk
+GET http://localhost:8000/posts/2
+
+
+### Create post data
+POST http://localhost:8000/produk
+Content-Type: application/json
+
+{
+    "nama": "handphone",
+    "kuantitas": "5"
+}
+
+
+### Update produk data
+PUT http://localhost:8000/produk/1
+Content-Type: application/json
+
+
+
+### Delete post data
+DELETE  http://localhost:8000/produk/2
